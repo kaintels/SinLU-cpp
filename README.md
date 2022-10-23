@@ -16,7 +16,7 @@ Libtorch implementation SinLU (Sinu-Sigmoidal Linear Unit)
 
 2. 아래 커맨드 입력 
 
-```"C:\Program Files\CMake\bin\cmake.EXE" --build d:/Code/SinLU-cpp/build --config Release --target ALL_BUILD -j 14 --```
+```python build.py```
 
 3. libtorch lib의 dll 파일을 Release 폴더로 이동
 
