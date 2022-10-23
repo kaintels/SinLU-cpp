@@ -9,6 +9,8 @@ Libtorch implementation SinLU (Sinu-Sigmoidal Linear Unit)
 
 ## How to execute 
 1. [Cmake 설치](https://cmake.org/download/)
+1.1 VScode의 CMake, CMake Language Support, CMake Tools 설치
+1.2 CMakeLists.txt를 저장 (Ctrl+S)
 
 2. 아래 커맨드 입력 
 
