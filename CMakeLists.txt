@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
+project(Main)
+set(CMAKE_CXX_COMPILER g++)
+set(CMAKE_PREFIX_PATH C:/libtorch/release/share/cmake/Torch)
+find_package(Torch REQUIRED)
+add_executable(Main sinlu.h model.h main.cpp)
+target_link_libraries(Main "${TORCH_LIBRARIES}")
