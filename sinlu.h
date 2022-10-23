@@ -4,7 +4,7 @@
 
 namespace sinlu{
 typedef struct SinLUImpl : torch::nn::Module {
-    SinLUImpl(int64_t N)
+    SinLUImpl(int64_t N=1)
     {
         a = register_parameter("a", torch::ones(N), true);
         b = register_parameter("b", torch::ones(N), true);
