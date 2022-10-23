@@ -9,5 +9,4 @@ cmd = "cmake --build "+\
 
 subprocess.run(cmd, shell=True)
 
-# for i in range(5):
-#     subprocess.run("./build/Release/Main.exe")
+subprocess.run("./build/Release/Main.exe")
