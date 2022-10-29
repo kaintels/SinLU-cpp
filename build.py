@@ -4,10 +4,16 @@ import os
 current_dir = os.getcwd()
 
 try:
+      cmd = "cmake --no-warn-unused-cli "+\
+            "-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE"+\
+            " -S"+current_dir+\
+            " -B"+current_dir+\
+            "/build -G \"Visual Studio 16 2019\" -T host=x86 -A x64"
+      subprocess.run(cmd, shell=True)  
       cmd = "cmake --build "+\
       current_dir+\
       "/build --config Release --target ALL_BUILD -j 14 --"
-      subprocess.run(cmd)      
+      subprocess.run(cmd, shell=True)      
       subprocess.run("./build/Release/main.exe")
 except:
       print("find linux...")
