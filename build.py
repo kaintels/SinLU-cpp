@@ -14,7 +14,7 @@ try:
       current_dir+\
       "/build --config Release --target ALL_BUILD -j 14 --"
       subprocess.run(cmd, shell=True)      
-      subprocess.run("./build/Release/main.exe")
+      subprocess.run("./build/Release/main.exe") # required libtorch/release/lib/*.dll files
 except:
       print("find linux...")
       cmd = "/usr/bin/cmake --no-warn-unused-cli "+\
