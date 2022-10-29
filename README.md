@@ -5,7 +5,9 @@ Libtorch implementation SinLU (Sinu-Sigmoidal Linear Unit)
 ## Prerequisite
 
 - libtorch Release version (1.12.0)
-- Visual Studio build tools 2019
+- Visual Studio build tools 2019 (for Windows)
+- WSL2
+- Clang 10+ (for Linux)
 
 ## How to execute 
 1. [Cmake 설치](https://cmake.org/download/)
@@ -18,7 +20,7 @@ Libtorch implementation SinLU (Sinu-Sigmoidal Linear Unit)
 
 ```python build.py```
 
-3. libtorch lib의 dll 파일을 Release 폴더로 이동
+3. libtorch lib의 dll 파일을 Release 폴더로 이동 (Only Windows)
 
 4. 파일 실행 ```build\Release\Main.exe```
 
