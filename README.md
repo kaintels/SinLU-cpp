@@ -22,7 +22,7 @@ Libtorch implementation SinLU (Sinu-Sigmoidal Linear Unit)
 
 3. libtorch lib의 dll 파일을 Release 폴더로 이동 (Only Windows)
 
-4. 파일 실행 ```build\Release\Main.exe```
+4. 파일 실행 ```build\Release\main.exe``` or ```build\main```
 
 ## See together
 
