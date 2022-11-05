@@ -4,7 +4,8 @@ Libtorch implementation SinLU (Sinu-Sigmoidal Linear Unit)
 
 ## Prerequisite
 
-- libtorch Release version (1.12.0)
+- libtorch Release CPU version (1.12.0)
+    - **Tested on CPU.** / CUDA is planned
 - Visual Studio build tools 2019 (**for Windows**)
 - WSL2 (**for Linux**)
 - Clang 10+ (**for Linux**)
